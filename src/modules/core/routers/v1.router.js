@@ -1,7 +1,7 @@
 require('express-async-errors');
 const { Router } = require('express');
 
-const KittenRouter = require('../../kitten/router');
+const KittenRouter = require('../../kitten/routers/router');
 
 const router = Router();
 

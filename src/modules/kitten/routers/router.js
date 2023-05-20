@@ -1,6 +1,6 @@
 const { Router } = require('express');
 
-const kittenRouter = require('./routers/kitten.router');
+const kittenRouter = require('./kitten.router');
 
 const router = Router();
 
